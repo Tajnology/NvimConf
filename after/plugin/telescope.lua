@@ -6,7 +6,6 @@ vim.keymap.set('n', '<leader>ps', function()
 end)
 vim.keymap.set('n', '<leader>vh', builtin.help_tags, {})
 
--- Makefile
 require('telescope-makefile').setup({
-    makefile_priority = { '.', 'build/', 'ffbuild/' },
+    makefile_priority = {'.', 'build/', 'ffbuild/' },
 })
