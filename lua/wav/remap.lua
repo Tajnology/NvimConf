@@ -13,7 +13,7 @@ end)
 -- Folding
 vim.opt.foldmethod = 'indent'
 vim.opt.foldenable = false
-vim.keymap.set('n', '<leader>f', function()
+vim.keymap.set('n', '<leader>fd', function()
     vim.opt.foldenable = not vim.o.foldenable
 end)
 
